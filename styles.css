@@ -1,0 +1,83 @@
+/* HTML Tag Selectors */
+body {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: -2px 2px 5px #000000;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 280%;
+    font-weight: 700;
+}
+h3 {
+    font-size: 210%;
+    font-weight: 600;
+}
+p {
+    padding: inherit 30%;
+}
+.navbar {
+    padding-left: 0;
+    text-align: left;
+}
+
+/* Class + ID Selectors */
+#title {
+    padding: 0 15% 7%;
+    background-color: #607feb;
+}
+.nav-item {
+    padding-right: 20px;
+}
+.div1 {
+    padding: 7% 0 0;
+    text-align: left;
+}
+.watch-btn {
+    margin: 2% 0;
+}
+.main-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#features {
+    padding: 8% 15% 7%;
+    background-color: #E0E4ED;
+    color: #222222;
+}
+.carousel-item {
+    padding: inherit 15%;
+}
+.caro-img {
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+#pricing {
+    padding: 7% 15% 3%;
+    background-color: #4a47a3;
+}
+.card-deck {
+    padding: 5%;
+}
+#copyright-bar {
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 1rem;
+	padding: 2% inherit 0;
+    margin: 0;
+    background-color: #F4F4F4;
+}
